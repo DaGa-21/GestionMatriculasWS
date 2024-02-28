@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jax-ws xmlns="http://www.netbeans.org/ns/jax-ws/1">
+  <services>
+    <service name="CRUDUsuarios">
+      <implementation-class>WS.CRUDUsuarios</implementation-class>
+    </service>
+    <service name="CRUDSemestres">
+      <implementation-class>WS.CRUDSemestres</implementation-class>
+    </service>
+    <service name="CRUDMaterias">
+      <implementation-class>WS.CRUDMaterias</implementation-class>
+    </service>
+    <service name="CRUDSemestreMateria">
+      <implementation-class>WS.CRUDSemestreMateria</implementation-class>
+    </service>
+    <service name="CRUDMatriculas">
+      <implementation-class>WS.CRUDMatriculas</implementation-class>
+    </service>
+    <service name="CRUDRoles">
+      <implementation-class>WS.CRUDRoles</implementation-class>
+    </service>
+    <service name="CRUDDetalleMatriculas">
+      <implementation-class>WS.CRUDDetalleMatriculas</implementation-class>
+    </service>
+    <service name="CRUDUsuarioRol">
+      <implementation-class>WS.CRUDUsuarioRol</implementation-class>
+    </service>
+  </services>
+  <clients/>
+</jax-ws>
